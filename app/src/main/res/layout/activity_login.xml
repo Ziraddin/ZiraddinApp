@@ -39,7 +39,7 @@
         android:layout_width="187dp"
         android:layout_height="26dp"
         android:layout_marginTop="12dp"
-        android:text="I read the terms of use"
+        android:text="@string/termsofuse"
         android:textColor="#252525"
         app:layout_constraintEnd_toEndOf="@+id/spinner"
         app:layout_constraintStart_toStartOf="@+id/spinner"

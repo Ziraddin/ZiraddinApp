@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Horoscope">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/gridLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:columnCount="3"
+            android:rowCount="4"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/aries" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/taurus" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/gemini" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/cancer" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/leo" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/virgo" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/libra" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/scorpio" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/saggitarius" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/capricorn" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/aqvarius" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:src="@drawable/piscaes" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/whatismysignTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="164dp"
+            android:text="What is my sign"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gridLayout2"
+            app:layout_constraintVertical_bias="0.866" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="343dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/text"
+            android:clickable="true"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/date_of_birthday"
+            android:inputType="date"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:textColor="#3C3C3C"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/whatismysignTV"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints,RtlSymmetry" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
