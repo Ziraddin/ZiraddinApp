@@ -22,11 +22,13 @@ A
 gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
 >
 app/.gitignore,5/1/51e1c5d383dfaa35e0e7e5873a0a99355a86880f
-P
- app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 …
 Uapp/src/androidTest/java/com/zireddinismayilov/ziraddinapp/ExampleInstrumentedTest.kt,a/a/aa0dd37f7930200557a8057388441cc2e60f2b45
 v
 Fapp/src/test/java/com/zireddinismayilov/ziraddinapp/ExampleUnitTest.kt,7/9/79b846e68f599e42fd26d922b90f252c610313d7
 @
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+p
+@app/src/main/java/com/zireddinismayilov/ziraddinapp/Horoscope.kt,3/e/3ee3d2d686ccd1595b8b0e21a9851f9971fe3163
+l
+<app/src/main/java/com/zireddinismayilov/ziraddinapp/Inbox.kt,a/c/ac8ce413b0fc7fd71e202e44ca4cdab54e434344

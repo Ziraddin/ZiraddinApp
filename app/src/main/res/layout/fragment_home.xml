@@ -23,6 +23,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
+                android:id="@+id/tarotCards"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
@@ -31,14 +32,16 @@
                 tools:ignore="MissingConstraints" />
 
             <ImageView
+                android:id="@+id/magicBall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:src="@drawable/magic_ball"
+                android:src="@drawable/magic_ball_home"
                 tools:ignore="MissingConstraints" />
 
             <ImageView
+                android:id="@+id/cofeeCup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
@@ -47,6 +50,7 @@
                 tools:ignore="MissingConstraints" />
 
             <ImageView
+                android:id="@+id/palmistry"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
